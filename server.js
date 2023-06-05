@@ -6,7 +6,7 @@ const PORT = process.env.PORT;
 
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URL, {
+mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
